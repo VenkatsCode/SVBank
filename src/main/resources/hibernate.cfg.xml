@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+    <session-factory>
+   		<mapping class="com.svbank.entity.UserLogin" />
+   		<mapping class="com.svbank.entity.UserRole" />
+		<mapping class="com.svbank.entity.UserDetails" />
+		<mapping class="com.svbank.entity.UserSecurity" />
+		<mapping class="com.svbank.entity.UserAccounts" />
+		<mapping class="com.svbank.entity.UserAccountBalance" />
+		<mapping class="com.svbank.entity.SecurityQuestions" />
+		<mapping class="com.svbank.entity.AccountRequests" />
+		<mapping class="com.svbank.entity.UserMoneyTransfer" />
+		<mapping class="com.svbank.entity.UserMoneyRecipients" />
+		<mapping class="com.svbank.entity.UserMoneyWithdraw" />
+  		<mapping class="com.svbank.entity.UserMoneyDeposit" />
+    </session-factory>
+</hibernate-configuration>
